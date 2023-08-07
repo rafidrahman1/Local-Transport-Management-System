@@ -16,7 +16,9 @@ import java.util.List;
 
 public class BusController{
     private final BusService busService;
+    @GetMapping("/all")
     public ResponseEntity<List<BusEntity>> getAllBus(){
+
         List<BusEntity> allBus = busService.getBusList();
 
         //all bus return hobe
