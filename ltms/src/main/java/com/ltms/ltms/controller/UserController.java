@@ -1,2 +1,4 @@
-package com.ltms.ltms.controller;public class UserController {
+package com.ltms.ltms.controller;
+
+public class UserController {
 }

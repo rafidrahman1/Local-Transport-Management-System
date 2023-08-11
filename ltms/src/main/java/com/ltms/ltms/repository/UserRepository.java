@@ -1,2 +1,4 @@
-package com.ltms.ltms.repository;public interface UserRepository {
+package com.ltms.ltms.repository;
+
+public interface UserRepository {
 }

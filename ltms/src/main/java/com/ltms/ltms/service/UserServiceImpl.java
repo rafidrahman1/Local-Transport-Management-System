@@ -1,2 +1,4 @@
-package com.ltms.ltms.service;public class UserServiceImpl {
+package com.ltms.ltms.service;
+
+public class UserServiceImpl {
 }

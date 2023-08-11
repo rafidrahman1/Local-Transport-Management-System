@@ -1,2 +1,4 @@
-package com.ltms.ltms.entity;public class UserEntity {
+package com.ltms.ltms.entity;
+
+public class UserEntity {
 }
