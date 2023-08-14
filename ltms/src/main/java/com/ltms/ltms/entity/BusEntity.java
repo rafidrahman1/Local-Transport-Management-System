@@ -6,7 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity
+@Entity//ORM
 @Table(name= "bus-entity")
 @Data //getter setter
 @AllArgsConstructor //no need write constructors
@@ -15,8 +15,9 @@ import lombok.NoArgsConstructor;
 public class BusEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)//ID generator
     private Long id;
     private String name;
     private Double price;
+    private String route;
 }

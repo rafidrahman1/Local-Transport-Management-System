@@ -23,6 +23,7 @@ public class BusServiceImpl implements BusService {
         BusEntity bus = BusEntity.builder()//no need to build constructor
                 .name(busModel.getName())
                 .price(busModel.getPrice())
+                .route(busModel.getRoute())
                 .build();
 
         BusEntity savedBus =  busRepository.save(bus);//elborated
