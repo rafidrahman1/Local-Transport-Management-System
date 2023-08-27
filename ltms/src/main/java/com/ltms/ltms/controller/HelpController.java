@@ -29,5 +29,10 @@ public class HelpController {
         HelpEntity helpEntity = helpService.createHelp(helpModel);
         return new ResponseEntity<>(helpEntity, HttpStatus.OK);
     }
+    @DeleteMapping("/delete/{questionId}")
+    public ResponseEntity<Object> deleteMapping(@PathVariable Long questionId){
+        helpService.deleteQuestion(questionId);
+        return new ResponseEntity<>("Deleted", HttpStatus.OK);
+    }
 
 }

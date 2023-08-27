@@ -28,4 +28,9 @@ public class HelpServiceImpl implements HelpService {
         List<HelpEntity> helpEntityList= helpRepository.findAll();
         return helpEntityList;
     }
+
+    @Override
+    public void deleteQuestion(Long questionId) {
+        helpRepository.deleteById(questionId);
+    }
 }

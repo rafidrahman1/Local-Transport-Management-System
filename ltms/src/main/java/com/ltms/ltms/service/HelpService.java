@@ -9,4 +9,6 @@ public interface HelpService {
     HelpEntity findHelpById(Long id);
     HelpEntity createHelp(HelpModel helpModel);
     List<HelpEntity> getHelpList();
+
+    void deleteQuestion(Long questionId);
 }

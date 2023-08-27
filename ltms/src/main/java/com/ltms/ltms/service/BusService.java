@@ -10,4 +10,7 @@ public interface BusService {
     BusEntity createBus(BusModel busModel);
     List<BusEntity> getBusList();
 
+    BusEntity updateBus(BusModel busModel, Long busId);
+
+    void deleteBus(Long busId);
 }

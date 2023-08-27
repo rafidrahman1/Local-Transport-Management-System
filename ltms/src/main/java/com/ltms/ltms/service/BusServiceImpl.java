@@ -14,8 +14,11 @@ public class BusServiceImpl implements BusService {
 
     private final BusRepository busRepository;
     @Override
-    public BusEntity findBusById(Long id) {
-        return null;
+    public BusEntity findBusById(Long busId) {
+
+        BusEntity busEntity = busRepository.findById(busId)
+                .orElseThrow();
+        return busEntity;
     }
 
     @Override
@@ -34,6 +37,21 @@ public class BusServiceImpl implements BusService {
     public List<BusEntity> getBusList() {
         List<BusEntity> busEntityList = busRepository.findAll();
         return busEntityList;
+    }
+
+    @Override
+    public BusEntity updateBus(BusModel busModel, Long busId) {
+        BusEntity busFromDB = busRepository.findById(busId)
+                .orElseThrow();
+        if (busModel.getPrice() != null) busFromDB.setPrice(busModel.getPrice());
+        if (busModel.getRoute() != null) busFromDB.setRoute(busModel.getRoute());
+        BusEntity updatedBus = busRepository.save(busFromDB);
+        return updatedBus;
+    }
+
+    @Override
+    public void deleteBus(Long busId) {
+        busRepository.deleteById(busId);
     }
 
 
