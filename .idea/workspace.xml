@@ -5,13 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1660468-250b-4f23-8521-8c5feb3e4620" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Local-Transport-Management-System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Local-Transport-Management-System.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/ltms.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/ltms.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltms/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ltms/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltms/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ltms/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltms/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ltms/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltms/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/ltms/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltms/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/ltms/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltms/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ltms/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/LtmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/LtmsApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/controller/BusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/controller/BusController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/controller/HelpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/controller/HelpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/entity/BusEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/entity/BusEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/entity/HelpEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/entity/HelpEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/models/BusModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/models/BusModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/models/HelpModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/models/HelpModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/repository/BusRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/repository/BusRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/repository/HelpRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/repository/HelpRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/service/BusService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/service/BusService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/service/BusServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/service/BusServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/service/HelpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/service/HelpService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/service/HelpServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ltms/src/main/java/com/ltms/ltms/service/HelpServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltms/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ltms/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltms/src/test/java/com/ltms/ltms/LtmsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ltms/src/test/java/com/ltms/ltms/LtmsApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +50,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/ltms">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -35,15 +62,22 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2UUbABgKhP8tBcQem0vngEIXgTX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -54,9 +88,71 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Dev/Local-Transport-Management-System"
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Dev/Master/CS couses/Object Oriented Programming/Labtask2/JDBC_2023",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ltms.ltms.service" />
+      <recent name="com.ltms.ltms.repository" />
+      <recent name="com.ltms.ltms.models" />
+      <recent name="com.ltms.ltms.entity" />
+      <recent name="com.ltms.ltms.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LtmsApplication">
+    <configuration name="LtmsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="BUNDLED" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.ltms.ltms.LtmsApplication" />
+      <module name="ltms.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ltms.ltms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ltms [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ltms" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.LtmsApplication" />
+      <item itemvalue="Gradle.ltms [dependencies]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ltms [dependencies]" />
+        <item itemvalue="Application.LtmsApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

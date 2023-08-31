@@ -9,8 +9,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class HelpModel {
+public class UserModel {
     private Long id;
-    private String question;
-    private String answer;
+    private String name;
+    private String password;
+    private String email;
+    private double balance=200;
 }

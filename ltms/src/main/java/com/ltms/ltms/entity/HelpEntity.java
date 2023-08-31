@@ -18,4 +18,5 @@ public class HelpEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String question;
+    private String answer;
 }

@@ -1,5 +1,4 @@
 package com.ltms.ltms.controller;
-
 import com.ltms.ltms.entity.BusEntity;
 import com.ltms.ltms.models.BusModel;
 import com.ltms.ltms.service.BusService;
@@ -7,7 +6,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController

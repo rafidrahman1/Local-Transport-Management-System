@@ -1,5 +1,4 @@
 package com.ltms.ltms.service;
-
 import com.ltms.ltms.entity.HelpEntity;
 import com.ltms.ltms.models.HelpModel;
 import com.ltms.ltms.repository.HelpRepository;
@@ -21,7 +20,16 @@ public class HelpServiceImpl implements HelpService {
                 .question(helpModel.getQuestion())
                 .build();
         HelpEntity savedHelp = helpRepository.save(help);
+        System.out.println("Your question has been submitted");
         return savedHelp;
+    }
+    @Override
+    public HelpEntity updateHelp(HelpModel helpModel, Long helpId) {
+        HelpEntity helpFromDB = helpRepository.findById(helpId)
+                .orElseThrow();
+        if (helpModel.getAnswer() != null) helpFromDB.setAnswer(helpModel.getAnswer());
+        HelpEntity updatedHelp = helpRepository.save(helpFromDB);
+        return updatedHelp;
     }
     @Override
     public List<HelpEntity> getHelpList(){
