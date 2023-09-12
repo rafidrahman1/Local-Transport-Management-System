@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1660468-250b-4f23-8521-8c5feb3e4620" name="Changes" comment="" />
+    <list default="true" id="a1660468-250b-4f23-8521-8c5feb3e4620" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +76,20 @@
       <recent name="com.ltms.ltms.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LtmsApplication">
+  <component name="RunManager" selected="Application.LtmsApplication (1)">
+    <configuration name="LtmsApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ltms.ltms.LtmsApplication" />
+      <module name="com.ltms.ltms.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ltms.ltms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LtmsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="BUNDLED" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -111,11 +128,13 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.LtmsApplication (1)" />
       <item itemvalue="Application.LtmsApplication" />
       <item itemvalue="Gradle.ltms [dependencies]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LtmsApplication (1)" />
         <item itemvalue="Application.LtmsApplication" />
         <item itemvalue="Gradle.ltms [dependencies]" />
       </list>
